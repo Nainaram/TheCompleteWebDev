@@ -49,6 +49,10 @@ background-image: url(images/snare.png);
 .set {
   margin: 10% auto;
 }
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
 
 .game-over {
   background-color: red;
@@ -81,3 +85,5 @@ background-image: url(images/snare.png);
   margin: 10px;
   background-color: white;
 }
+
+
