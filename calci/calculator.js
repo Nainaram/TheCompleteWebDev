@@ -21,7 +21,7 @@ app.post("/BMIcalculator" ,function(req, res){
     var bmiresult = weight/(height*height);
     
 
-res.send(" the result  bmi is " + bmiresult*100)
+res.send(" the result  bmi is " + bmiresult)
 });
 
 app.listen(3000,function(){
